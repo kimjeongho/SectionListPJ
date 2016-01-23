@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             myAdapter.add(gi);
             for (int j = 0; j <4; j++){
                ChildItem ci = new ChildItem();
-                ci.childName= "Child"+j;
+                ci.childName= gi.groupName+"Child"+j;
                 myAdapter.add(ci);
                // Toast.makeText(MainActivity.this,"Group: "+i+","+"item: "+j,Toast.LENGTH_SHORT).show();
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
