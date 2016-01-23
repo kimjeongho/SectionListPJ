@@ -36,15 +36,6 @@ public class MainActivity extends AppCompatActivity {
                ChildItem ci = new ChildItem();
                 ci.childName= gi.groupName+"Child"+j;
                 myAdapter.add(ci);
-               // Toast.makeText(MainActivity.this,"Group: "+i+","+"item: "+j,Toast.LENGTH_SHORT).show();
-                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        //Toast.makeText(MainActivity.this,i+j,Toast.LENGTH_SHORT).show();
-
-
-                    }
-                });
             }
         }
 
