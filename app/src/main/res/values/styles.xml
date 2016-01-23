@@ -8,4 +8,22 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="GroupStyle">
+        <item name="android:textSize">@dimen/text_group</item>
+        <item name="android:textColor">@color/colorGroup</item>
+        <item name="android:background">#880000</item>
+    </style>
+
+    <style name="ItemStyle">
+        <item name="android:textSize">@dimen/text_item</item>
+        <item name="android:textColor">@color/colorItem</item>
+        <item name="android:background">#004956</item>
+    </style>
+    <style name="GroupStyle.Shadow">
+        <item name="android:shadowColor">#99FF0000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+
+    </style>
 </resources>
