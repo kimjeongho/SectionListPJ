@@ -8,5 +8,4 @@ import java.util.List;
  */
 public class GroupItem implements GroupData {
     String groupName;
-    List<ChildItem> children = new ArrayList<ChildItem>();
 }
